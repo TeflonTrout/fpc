@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BlankRiver';
+    src: url("./BlankRiver.ttf");
+}
+
+* {
+    font-family: "BlankRiver";
+}
