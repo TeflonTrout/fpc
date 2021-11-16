@@ -4,14 +4,15 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 import Home from "./components/Home";
+import ResinGuide from "./components/ResinGuide";
 
 function App() {
   return (
     <Router>
       <div className="header">
-        <Header />
+        <NavBar />
       </div>
 
       <Switch>
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/guides">
           Guides
+        </Route>
+        <Route path='/resin'>
+          <ResinGuide />
         </Route>
       </Switch>
     </Router>

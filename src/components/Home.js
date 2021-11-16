@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from "./Home.module.css";
-import resinGuide from "../images/CGCC_Resin.png";
+import Logo from "../images/FPC.png"
 
 const Home = () => {
     return (
         <div className={styles["home-container"]}>
-            <img src={resinGuide} alt="" width={500} height={500} />
+           <img src={Logo} alt="" width={500}/>
         </div>
     )
 }
