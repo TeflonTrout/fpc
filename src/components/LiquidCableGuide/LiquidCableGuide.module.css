@@ -1,0 +1,24 @@
+.liquid-page {
+    min-height: calc(100vh - 300px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 80px;
+    font-family: 'BlankRiver';
+}
+
+.liquid-page p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.liquid-page img {
+    margin: 10px;
+}
+
+.video-container {
+    margin: 50px;
+}

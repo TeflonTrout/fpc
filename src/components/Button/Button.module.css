@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'BlankRiver';
+    src: url("../../styles/BlankRiver.ttf");
+}
+
+@font-face {
+    font-family: "Urban";
+    src: url("../../styles/UrbanHeroes.ttf");
+}
+
+.green {
+    border-radius: 8px;
+    padding: 10px 15px 10px 15px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgba(86,192,161,255);
+    transition: .1s ease-out;
+    font-family: 'BlankRiver';
+}
+
+.green:hover {
+    background-color:rgb(73, 73, 73) !important;
+    transition: .1s ease-in;
+}

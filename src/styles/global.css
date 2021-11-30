@@ -3,6 +3,6 @@
     src: url("./BlankRiver.ttf");
 }
 
-* {
-    font-family: "BlankRiver";
+.App {
+    min-height: 100vh;
 }

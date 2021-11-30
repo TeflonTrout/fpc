@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'BlankRiver';
+    src: url("../../styles/BlankRiver.ttf");
+}
+
+@font-face {
+    font-family: "Urban";
+    src: url("../../styles/UrbanHeroes.ttf");
+}
+
+* {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(86,192,161,255) !important;
+}
+
+.header .dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    position: absolute;
+    background-color: rgba(86,192,161,255);
+}
+
+.link {
+    color: black;
+    cursor: pointer;
+    transition: .1s ease-out;
+    font-family: "BlankRiver";
+    font-size: 80px;
+}
+
+.link:hover {
+    transition: .1s ease-in;
+    color: rgb(73, 73, 73);
+}
