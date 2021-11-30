@@ -14,7 +14,7 @@
 
 .header {
     display: flex;
-    height: 150px;
+    height: 80px;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(86,192,161,255) !important;
@@ -35,10 +35,115 @@
     cursor: pointer;
     transition: .1s ease-out;
     font-family: "BlankRiver";
-    font-size: 80px;
+    font-size: 30px;
 }
 
 .link:hover {
     transition: .1s ease-in;
     color: rgb(73, 73, 73);
+}
+
+.hamburger-container {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+.logo {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    @keyframes growDown {
+        0% {
+            transform: scaleY(0)
+        }
+        80% {
+            transform: scaleY(1.1)
+        }
+        100% {
+            transform: scaleY(1)
+        }
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .hamburger-container {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        height: auto;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        background-color: rgb(73, 73, 73) !important;
+    }
+
+    .close-btn {
+        position: fixed;
+        top: 40px;
+        right: 40px;
+        cursor: pointer;
+        font-size: 40px;
+        transition: .1s ease-out;
+    }
+
+    .close-btn:hover {
+        color: rgba(86,192,161,255);
+        transition: .1s ease-in;
+    }
+
+    .hamburger-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        align-items: center;
+        width: 100%;
+        z-index: 10;
+        background-color: rgb(73, 73, 73) !important;
+        animation: growDown .3s ease-in-out forwards;
+        transition: .1s ease-out;
+    }
+
+    .hamburger-header .link {
+        font-size: 30px;
+        transition: .1s ease-out;
+    }
+
+    .hamburger-header .link:hover {
+        font-size: 30px;
+        color: rgba(86,192,161,255);
+        transition: .1s ease-in;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .link {
+        font-size: 12px;
+        color: black;
+        cursor: pointer;
+        transition: .1s ease-out;
+        font-family: "BlankRiver";
+        font-size: 80px;
+    }
 }

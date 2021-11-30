@@ -7,7 +7,7 @@ const LiquidCableGuide = () => {
             <h1 className={styles['heading']}>Liquid Cables</h1>
             <p>Fires, Luberry and I have collaborated on a guide that shows you how to create Gamecube cables entierly from scratch.</p>
             <p>Fires has a fantastic write up on his website which can be found here!</p>
-            <a href="https://firescc.com/" target="_blank">
+            <a href="https://firescc.com/" target="_blank" rel="noreferrer">
                 <img src="https://images.squarespace-cdn.com/content/v1/5c3d9d5c12b13fffd47d23bf/eeec1194-4c3b-4710-b35f-4508881a44f1/Artboard+1.png?format=1500w" alt="" width={200}/>
             </a>
             <p>I have created a video guide for all of you visual learners to follow!</p>

@@ -14,10 +14,14 @@
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 300px);
-    background: linear-gradient( rgba(0, 0, 0,0.8), rgba(0, 0, 0,0.8) ), url("../../images/FramePerfectControllers.png");
+    /* background: linear-gradient( rgba(0, 0, 0,.3), rgba(0, 0, 0,.3) ), url("../../images/FramePerfectControllers.png"); */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.home-container h1 {
+    font-family: "BlankRiver";
 }
 
 .hero {
@@ -33,6 +37,15 @@
     font-size: 25px;
 }
 
+.carousel {
+    width: 25vw;
+    border-radius: 20px;
+}
+
+.carousel img {
+    border-radius: 20px;
+}
+
 .button-container {
     width: 100%;
     display: flex;
@@ -44,4 +57,42 @@
     font-family: "BlankRiver";
     font-size: 50px;
     margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: calc(80vh - 80px);
+        /* background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../images/FramePerfectControllers.png"); */
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .carousel {
+        width: 60vw;
+        margin-bottom: 20px;
+    }    
+
+    .hero {
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        color: black;
+        font-family: "Urban";
+        font-size: 10px;
+    }
+
+    .h4 {
+        font-family: "BlankRiver";
+        font-size: 30px;
+        margin: 0;
+    }
 }

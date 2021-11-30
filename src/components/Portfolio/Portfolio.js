@@ -19,8 +19,6 @@ import plugcovers from "../../assets/plugcovers.png";
 // BOX CONTROLLERS
 import troutbox from "../../assets/troutbox.png";
 import dkbox from "../../assets/dkbox.png";
-// LOGO
-import testImg from "../../images/FPC.png";
 
 const Portfolio = () => {
 

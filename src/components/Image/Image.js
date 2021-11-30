@@ -10,7 +10,7 @@ const Image = (props) => {
 
     return (
         <>
-            {isLoading ? <img src={props.src}/> : <Skeleton width={500} height={800} />}
+            {isLoading ? <img src={props.src} alt="" /> : <Skeleton width={500} height={800} />}
         </>
     )
 }

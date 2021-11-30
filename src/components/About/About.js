@@ -25,7 +25,7 @@ const About = () => {
                 <ul>
                     <li>Anti-Snapback Modules</li>
                     <li>Digital Press Modifications</li>
-                    <li>Custom Cables (see my collaboration with Fires Custom Controllers <a className={styles['link']} href='https://firescc.com/mod-guides#/diy-custom-cables' target='_blank'>here</a>)</li>
+                    <li>Custom Cables (see my collaboration with Fires Custom Controllers <a className={styles['link']} href='https://firescc.com/mod-guides#/diy-custom-cables' target='_blank' rel="noreferrer">here</a>)</li>
                     <li>LED Mods</li>
                 </ul>
                 <p>

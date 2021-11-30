@@ -31,7 +31,7 @@
     justify-content: center;
     grid-gap: 10px;
     width: 90vw;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
 }
 
 .grid:last-of-type {
@@ -39,21 +39,24 @@
 }
 
 .grid-card {
-    width: 500px;
+    width: 300px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
+    overflow: hidden;
     align-items: center;
 }
 
 .grid-card img {
-    width: 500px;
+    width: 100%;
     border-radius: 20px;
-    transition: .2s ease-in-out;
+    transition: 0.1s ease-in-out;
     z-index: 0;
 }
 
 .grid-card img:hover {
-    transform: scale(1.5);
-    transition: .2s ease-in;
+    border-radius: 20px;
+    transform: scale(1.25);
+    transition: 0.1s ease-in;
     z-index: 10;
 }

@@ -38,6 +38,7 @@ function App() {
         </Switch>
         
         <Footer />
+        <p style={{display: 'flex', justifyContent: 'center', margin: '0', padding: '0 10px 0 0', fontSize: '10px', backgroundColor: "rgb(73, 73, 73)"}}>Created 2021</p>
       </Router>
     </div>
   );
