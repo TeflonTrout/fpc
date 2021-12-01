@@ -50,8 +50,8 @@ const Home = () => {
                         <ModalImage 
                             hideDownload={true} 
                             hideZoom={true} 
-                            small="https://i.ibb.co/ys3n8T2/troutbox.png" 
-                            medium="https://i.ibb.co/ys3n8T2/troutbox.png"
+                            small="https://i.ibb.co/9ghP0zg/panasonic1.png" 
+                            medium="https://i.ibb.co/9ghP0zg/panasonic1.png"
                         />
                     </div>
                 </Carousel>
