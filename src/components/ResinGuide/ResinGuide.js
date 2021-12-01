@@ -2,11 +2,14 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import resinGuide from "../../images/CGCC_Resin.png";
 import styles from "./ResinGuide.module.css";
+import ModalImage from "react-modal-image"
 
 const ResinGuide = () => {
     return (
         <div className={styles['resin-page']}>
-            <img src={resinGuide} alt="" width={500} height={500} />
+            <div className={styles['image-container']}>
+                <ModalImage hideZoom={true} hideDownload={true} small={resinGuide} large={resinGuide} width={500} />
+            </div>
             <h1>Intro to Resin Options - RSN101</h1>
             <div className={styles['container']}>
                 <h3>Alright listen up, class is in session! So you just got into resin casting? Awesome, glad to hear it but, you've got a lot to learn before you can graduate. We've got a lot to discuss so let's hop into it, champ!</h3>
@@ -49,7 +52,6 @@ const ResinGuide = () => {
                         Task 9
                     </Link>
                 </h1>
-                <img src="https://www.smooth-on.com/pw/site/assets/files/10340/task9-combo-533x400.jpg" alt="" width={200} />
                 <h3>Task 9 (here on referred to as T9) is a favorite among CGCC resin casters and my personal favorite. T9 offers a flexible 7 minute pot life and cures in a timely 1 hour! In addition it cures to about 85 Shore D hardness which is hard enough for Buttons, Sticks, Trigggers *AND* Shells! If you want to start making sticks, T9 is highly recommended for the bases. The drawbacks to T9 is that it can be a bit pricey and hard to find.</h3>
             </div>
             <div className={styles['container']}>

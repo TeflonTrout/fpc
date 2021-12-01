@@ -25,6 +25,89 @@
     font-family: "BlankRiver";
 }
 
+.testimonials-left {
+    width: 90vw;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.testimonials-right {
+    width: 90vw;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote-box-left {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 50vw;
+    background-color: rgb(73, 73, 73);
+    padding: 20px 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.quote-box-right {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    width: 50vw;
+    background-color: rgb(73, 73, 73);
+    padding: 20px 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.quote-box-left h3 {
+    display: flex;
+    color: white;
+}
+
+.quote-box-left .author {
+    font-family: "BlankRiver";
+    font-weight: 200;
+    font-size: 50px;
+    margin: 0;
+}
+
+.author a {
+    color: rgba(86,192,161,255);
+    transition: .1s ease-out;
+}
+
+.author a:hover {
+    color: white;
+    transition: .1s ease-in;
+}
+
+.quote-mark-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    font-family: "BlankRiver" !important;
+    font-size: 80px;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.quote-mark-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    font-family: "BlankRiver" !important;
+    font-size: 80px;
+    margin: 0;
+    margin-left: 20px;
+}
+
 .grid {
     display: grid;
     align-items: center;
@@ -59,4 +142,80 @@
     transform: scale(1.25);
     transition: 0.1s ease-in;
     z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .testimonials-left {
+        width: 90vw;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .testimonials-right {
+        width: 90vw;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .quote-box-left {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 90vw;
+        background-color: rgb(73, 73, 73);
+        padding: 20px 30px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .quote-box-right {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        width: 90vw;
+        background-color: rgb(73, 73, 73);
+        padding: 20px 30px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .quote-box-left h3 {
+        display: flex;
+        color: white;
+    }
+    
+    .quote-box-left .author {
+        color: rgba(86,192,161,255);
+        font-family: "BlankRiver";
+        font-weight: 200;
+        font-size: 50px;
+        margin: 0;
+    }
+    
+    .quote-mark-left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        color: white;
+        font-family: "Urban" !important;
+        font-size: 80px;
+        margin: 0;
+        margin-right: 10px;
+    }
+    
+    .quote-mark-right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: white;
+        font-family: "Urban" !important;
+        font-size: 80px;
+        margin: 0;
+        margin-left: 10px;
+    }    
 }

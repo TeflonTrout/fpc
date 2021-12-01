@@ -27,6 +27,10 @@
     flex-direction: column;
 }
 
+.image-container {
+    max-width: 500px;
+}
+
 .container .centered-head {
     display: flex;
     justify-content: center;
@@ -41,12 +45,16 @@
 .link {
     font-size: 80px;
     font-family: "BlankRiver";
-    color: black;
+    color: black !important;
     transition: 0.1s ease-in;
 }
 
+.resin-page a {
+    color: rgba(86,192,161,255);
+}
+
 .link:hover {
-    color:orange;
+    color:rgba(86,192,161,255) !important;
     cursor: pointer;
 }
 

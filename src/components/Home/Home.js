@@ -3,11 +3,10 @@ import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import image1 from "../../assets/orange.png";
-import image2 from "../../assets/blue_green.png";
-import image3 from "../../assets/watermelon.png";
+import ModalImage from "react-modal-image";
 
 import styles from "./Home.module.css";
+import "./modal.css";
 
 const Home = () => {
     return (
@@ -16,13 +15,44 @@ const Home = () => {
             <div className={styles['carousel']}>
                 <Carousel showThumbs={false} showStatus={false} autoPlay={true} infiniteLoop={true}>
                     <div>
-                        <img src={image1} alt="" />
+                        <ModalImage 
+                            hideDownload={true} 
+                            hideZoom={true} 
+                            small="https://i.ibb.co/yPscXdT/orange.png" 
+                            medium="https://i.ibb.co/yPscXdT/orange.png"
+                        />
                     </div>
                     <div>
-                        <img src={image2} alt="" />
+                        <ModalImage 
+                            hideDownload={true} 
+                            hideZoom={true} 
+                            small="https://i.ibb.co/dG1YYtV/blue-green.png" 
+                            medium="https://i.ibb.co/dG1YYtV/blue-green.png"
+                        />
                     </div>
                     <div>
-                        <img src={image3} alt="" />
+                        <ModalImage 
+                            hideDownload={true} 
+                            hideZoom={true} 
+                            small="https://i.ibb.co/wJ65w8c/sticks.png" 
+                            medium="https://i.ibb.co/wJ65w8c/sticks.png"
+                        />
+                    </div>
+                    <div>
+                        <ModalImage 
+                            hideDownload={true} 
+                            hideZoom={true} 
+                            small="https://i.ibb.co/42pD73M/watermelon.png" 
+                            medium="https://i.ibb.co/42pD73M/watermelon.png"
+                        />
+                    </div>
+                    <div>
+                        <ModalImage 
+                            hideDownload={true} 
+                            hideZoom={true} 
+                            small="https://i.ibb.co/ys3n8T2/troutbox.png" 
+                            medium="https://i.ibb.co/ys3n8T2/troutbox.png"
+                        />
                     </div>
                 </Carousel>
             </div>

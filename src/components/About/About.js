@@ -1,17 +1,12 @@
 import React from 'react';
-import me from "../../assets/Riptide.jpg";
-import prenotch from "../../assets/prenotch.jpg";
-import adapter1 from "../../assets/adapter1.jpg";
-import adapter2 from "../../assets/adapter2.jpg";
 import styles from "./About.module.css";
 
 const About = () => {
     return (
         <div className={styles['about-page']}>
-
-            <img className={styles['image']} src={me} alt="" width={800}/>
+            <img className={styles['image']} src="https://i.ibb.co/Dw1rZ1N/Riptide.jpg" alt="" width={800}/>
             <div className={styles['container']}>
-            <h1 className={styles['heading']}>About Me</h1>
+                <h1 className={styles['heading']}>About Me</h1>
                 <p>Hey, thanks for stopping by! My name is TeflonTrout (Teflon, Trout, or JT is fine) and I'm the founder and CEO of
                     Frame Perfect Controllers. My journey into Custom Gamecube Controllers began back in 2018 when I stumbled upon the CGCC discord
                     server while scouring the internet for notching tips/tricks. 
@@ -32,12 +27,12 @@ const About = () => {
                     Some of my more recent endeavors include resin casting pre-notched controllers that are 'Goomwave' compatible and ready for notch callibration,
                 </p>
             </div>
-            <img className={styles['image']} src={prenotch} alt="" width={800}/>
+            <img className={styles['image']} src="https://i.ibb.co/9pcNMWf/prenotch.jpg" alt="" width={800}/>
             <div className={styles['container']}>
                 <p>As well as; resin casting custom GCC adapters, for you to add some flare to your setup.</p>
                 <div className={styles['image-container']}>
-                    <img className={styles['image']} src={adapter1} alt="" />
-                    <img className={styles['image']} src={adapter2} alt="" />
+                    <img className={styles['image']} src="https://i.ibb.co/4SLY31f/adapter1.jpg" alt="" />
+                    <img className={styles['image']} src="https://i.ibb.co/fdRWp4x/adapter2.jpg" alt="" />
                 </div>
             </div>
             <div className={styles['container']}>
@@ -46,7 +41,6 @@ const About = () => {
                     <li>3 Years of Resin Casting Experience</li>
                     <li>CGCC Discord Moderator</li>
                     <li>Riptide 2021 Vendor</li>
-                    <li>First person to resin cast screwless trigger brackets</li>
                 </ul>
             </div>
         </div>

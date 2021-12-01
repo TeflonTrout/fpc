@@ -13,8 +13,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 300px);
-    /* background: linear-gradient( rgba(0, 0, 0,.3), rgba(0, 0, 0,.3) ), url("../../images/FramePerfectControllers.png"); */
+    min-height: calc(100vh - 245px);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;

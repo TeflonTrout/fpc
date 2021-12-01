@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.about-page * {
+    font-size: 24px;
+}
+
 .image {
     margin: 20px;
     border-radius: 10px;
@@ -42,4 +46,11 @@
 .link {
     cursor: pointer;
     color: rgba(86,192,161,255);
+}
+
+.about-page ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }

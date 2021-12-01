@@ -1,0 +1,37 @@
+.guide-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "BlankRiver";
+    text-align: center;
+    min-height: calc(100vh - 245px);
+}
+
+.guide-page h1 {
+    font-size: 80px;
+    margin: 20px 0 0 0;
+}
+
+.container {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h2 {
+    list-style: none;
+    font-size: 50px;
+}
+
+.container .link {
+    color: rgba(86,192,161,255);
+    transition: .1s ease-out;
+    cursor: pointer;
+}
+
+.container .link:hover {
+    color: rgb(73, 73, 73);
+    transition: .1s ease-in;
+}

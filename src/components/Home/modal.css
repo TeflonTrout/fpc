@@ -1,0 +1,11 @@
+.__react_modal_image__modal_content img {
+    width: 90vw;
+    max-width: 1000px;
+}
+
+@media screen and (max-width: 600px) {
+    .__react_modal_image__modal_content img {
+        width: 90vw !important;
+        max-width: 1000px;
+    }
+}

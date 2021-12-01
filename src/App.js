@@ -12,6 +12,7 @@ import ResinGuide from "./components/ResinGuide/ResinGuide";
 import LiquidCableGuide from "./components/LiquidCableGuide/LiquidCableGuide";
 import Portfolio from "./components/Portfolio/Portfolio";
 import "./styles/global.css";
+import Guide from "./components/Guide/Guide";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route exact path='/guide'>
+            <Guide />
           </Route>
           <Route path='/guide/resin'>
             <ResinGuide />
