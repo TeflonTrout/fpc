@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -10,6 +10,10 @@ import "./modal.css";
 
 const Home = () => {
     const [alertOpen, setAlertOpen] = useState(false);
+
+    useEffect(() => {
+        document.querySelector("body").scrollTo(0,0)
+      }, [])
 
     function handleAlertClick() {
         setAlertOpen(prevState => !prevState);

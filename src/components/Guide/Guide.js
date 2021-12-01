@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styles from "./Guide.module.css";
 
 const Guide = () => {
+    useEffect(() => {
+        document.querySelector("body").scrollTo(0,0)
+      }, [])
+
     return (
         <div className={styles['guide-page']}>
             <h1>Mod Guides</h1>

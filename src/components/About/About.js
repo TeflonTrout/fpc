@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styles from "./About.module.css";
 
 const About = () => {
+    useEffect(() => {
+        document.querySelector("body").scrollTo(0,0)
+    }, [])
+
     return (
         <div className={styles['about-page']}>
             <img className={styles['image']} src="https://i.ibb.co/Dw1rZ1N/Riptide.jpg" alt="" width={800}/>

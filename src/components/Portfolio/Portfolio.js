@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ModalImage from "react-modal-image";
 import styles from './Portfolio.module.css';
 import './modal.css';
 
 const Portfolio = () => {
+    useEffect(() => {
+        document.querySelector("body").scrollTo(0,0)
+      }, [])
 
     return (
         <div className={styles['portfolio']}>
