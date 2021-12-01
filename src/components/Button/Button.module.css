@@ -20,6 +20,7 @@
     background-color: rgba(86,192,161,255);
     transition: .1s ease-out;
     font-family: 'BlankRiver';
+    font-size: 20px;
 }
 
 .green:hover {

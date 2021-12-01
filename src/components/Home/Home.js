@@ -59,10 +59,10 @@ const Home = () => {
             <div className={styles['hero']}>
                 <div className={styles['button-container']}>
                     <Link to='/portfolio'>
-                        <Button text="See Work" color="green" width={100}/>
+                        <Button text="See Work" color="green" width={40}/>
                     </Link>
                     <a href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel='noreferrer'>
-                        <Button text="Learn More" color="green" width={100}/>
+                        <Button text="Learn More" color="green" width={40}/>
                     </a>
                 </div>
             </div>
