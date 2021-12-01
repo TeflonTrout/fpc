@@ -36,6 +36,62 @@
     font-size: 25px;
 }
 
+.alert-box {
+    position: relative;
+    display: flex;
+    width: 50vw;
+    background-color: rgba(86,192,161,255);
+    border-radius: 20px;
+    margin: 50px;
+    text-align: center;
+}
+
+.alert-box .close-btn {
+    position: absolute;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2px 8px;
+    border-radius: 50%;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.alert-box .icon {
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: black;
+    color:white;
+    border-radius: 20px;
+    font-size: 80px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Urban";
+}
+
+.alert-box .message {
+    width: 75%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.alert-box .alert {
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .carousel {
     width: 25vw;
     border-radius: 20px;
@@ -69,6 +125,43 @@
         background-position: center top;
         background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    .alert-box {
+        width: 95vw;
+        display: flex;
+        background-color: rgba(86,192,161,255);
+        border-radius: 20px;
+        margin: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .alert-box .icon {
+        padding: 5px;
+        margin: 0;
+        background-color: black;
+        color:white;
+        border-radius: 20px;
+        font-size: 40px;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Urban";
+    }
+
+    .alert-box .message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .alert-box .alert {
+        padding: 2px;
+        font-size: 15px;
+        margin: 5;
     }
 
     .carousel {
