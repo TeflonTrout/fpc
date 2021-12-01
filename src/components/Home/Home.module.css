@@ -62,7 +62,7 @@
     .home-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         min-height: calc(80vh - 80px);
         /* background:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../../images/FramePerfectControllers.png"); */
@@ -77,7 +77,7 @@
     }    
 
     .hero {
-        display: none;
+        display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;

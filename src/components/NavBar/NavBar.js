@@ -92,7 +92,9 @@ const NavBar = () => {
                     </Menu>
                 </div>
                 <div className={styles['hamburger-menu']}>
-                    <img className={styles['logo']} src={logo} alt="" width={80} />
+                    <Link to="/">
+                        <img className={styles['logo']} src={logo} alt="" width={80} />
+                    </Link>
                     <div className={styles['hamburger-container']} onClick={e => handleHamburgerClick(e)} >
                         <MenuIcon className={styles['hamburger']} />
                     </div>
@@ -112,6 +114,9 @@ const NavBar = () => {
                         <Link to="/guide" onClick={e => handleHamburgerClick(e)}>
                             <h1 className={styles['link']}>Guide</h1>
                         </Link>
+                        <a href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel="noreferrer" onClick={e => handleHamburgerClick(e)}>
+                            <h1 className={styles['link']}>Shop</h1>
+                        </a>
                     </div> : "" }
                 </div>
             </CssBaseline>

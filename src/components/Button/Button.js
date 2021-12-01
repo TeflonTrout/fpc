@@ -3,8 +3,9 @@ import React from 'react';
 import styles from "./Button.module.css";
 
 const Button = (props) => {
+    const width = props.width;
     return (
-        <div className={styles[`${props.color}`]}>
+        <div className={styles[`${props.color}`]} style={{width: `${width}px`}}>
             <h3>{props.text.toUpperCase()}</h3>
         </div>
     )

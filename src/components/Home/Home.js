@@ -57,13 +57,12 @@ const Home = () => {
                 </Carousel>
             </div>
             <div className={styles['hero']}>
-                {/* <h4 className={styles['h4']}>1 frame makes all the difference</h4> */}
                 <div className={styles['button-container']}>
                     <Link to='/portfolio'>
-                        <Button text="See Builds" color="green"/>
+                        <Button text="See Work" color="green" width={100}/>
                     </Link>
                     <a href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel='noreferrer'>
-                        <Button text="Shop" color="green"/>
+                        <Button text="Learn More" color="green" width={100}/>
                     </a>
                 </div>
             </div>
