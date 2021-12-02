@@ -131,7 +131,7 @@
     .alert-box .alert {
         padding: 2px;
         font-size: 15px;
-        margin: 5;
+        margin: 10px 10px 10px 25px;
     }
 
 }

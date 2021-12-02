@@ -119,18 +119,18 @@
         align-items: center;
         width: 100%;
         z-index: 10;
-        background-color: rgb(73, 73, 73) !important;
+        background-color: rgb(153, 153, 153) !important;
         animation: growDown .3s ease-in-out forwards;
         transition: .1s ease-out;
     }
 
     .hamburger-header .link {
-        font-size: 30px;
+        font-size: 40px;
         transition: .1s ease-out;
     }
 
     .hamburger-header .link:hover {
-        font-size: 30px;
+        font-size: 40px;
         color: rgba(86,192,161,255);
         transition: .1s ease-in;
     }
