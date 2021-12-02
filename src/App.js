@@ -13,6 +13,7 @@ import LiquidCableGuide from "./components/LiquidCableGuide/LiquidCableGuide";
 import Portfolio from "./components/Portfolio/Portfolio";
 import "./styles/global.css";
 import Guide from "./components/Guide/Guide";
+import AlertBanner from "./components/AlertBanner/AlertBanner";
 
 function App() {
   
@@ -20,7 +21,7 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-
+        <AlertBanner />
         <Switch>
           <Route exact path="/" >
             <Home />

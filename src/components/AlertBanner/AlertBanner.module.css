@@ -1,0 +1,137 @@
+
+.alert-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(146, 146, 146);
+    /* border-radius: 20px; */
+    margin: 0;
+    text-align: center;
+}
+
+.alert-box .close-btn {
+    position: absolute;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px 8px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.alert-box .icon {
+    padding: 5px 0 5px 0;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    background-color: black;
+    color:white;
+    border-radius: 0 20px 20px 0;
+    font-size: 30px;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "BlankRiver";
+    transition: .1s ease-in;
+}
+
+.alert-box .close-btn:hover {
+    transition: .1s ease-in;
+    color: rgba(86,192,161,255) !important;
+}
+
+.alert-box .icon:hover {
+    transition: .1s ease-in;
+    color: rgba(86,192,161,255) !important;
+}
+
+.alert-box .message {
+    width: calc(100% - 10vw);
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.alert-box .alert {
+    padding: 5px;
+    color:white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+    .alert-box {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(146, 146, 146);
+        border-radius: 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .alert-box .icon {
+        padding: 20px 0 20px 0;
+        background-color: black;
+        height: auto !important;
+        color:white;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 10%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Urban";
+    }
+
+    
+.alert-box .close-btn {
+    /* position: absolute; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px 8px;
+    border-radius: 50%;
+    top: 40%;
+    right: 0;
+    bottom: 40%;
+    cursor: pointer;
+}
+
+    .alert-box .message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    
+    .alert-box .alert {
+        padding: 2px;
+        font-size: 15px;
+        margin: 5;
+    }
+
+}
