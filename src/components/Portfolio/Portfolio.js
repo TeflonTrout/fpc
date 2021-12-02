@@ -16,7 +16,12 @@ const Portfolio = () => {
                     <h3><p className={styles['quote-mark-left']}>"</p>Great quality resin and one of my go-to's in a pinch on a collaboration project. 
                         [He does] great work and get[s] it done super quick, while also making sure everything is up to snuff with my vision and your standards.
                     Also a top notch lad in general.<p className={styles['quote-mark-right']}>"</p></h3>
-                    <h1 className={styles['author']}><a href="https://twitter.com/ControlInColor" target="_blank" rel="noreferrer">- Joe Marchesi, CEO of Control in Color</a></h1>
+                    <h1 className={styles['author']}>
+                        <img src={`https://pbs.twimg.com/media/DzAo42-WoAEvaMk?format=jpg&name=4096x4096`} alt=""/>
+                        <a href="https://twitter.com/ControlInColor" target="_blank" rel="noreferrer">
+                            - Joe Marchesi, CEO of Control in Color
+                        </a>
+                    </h1>
                 </div>
             </div>
             <div className={styles['testimonials-right']}>
@@ -25,7 +30,12 @@ const Portfolio = () => {
                     and couldn't be happier. The quality is amazing and consistent and the people are even better! 
                     Bought over 12 sets from them at this point (sticks, triggers, abxy, the works!) 
                     and the results + communication was on point!<p className={styles['quote-mark-right']}>"</p></h3>
-                    <h1 className={styles['author']}><a href="https://twitter.com/Kubbymo" target="_blank" rel="noreferrer">- Kubby, Founder of Kubbymo Customs</a></h1>
+                    <h1 className={styles['author']}>
+                        <img src="https://pbs.twimg.com/profile_images/1460448549309661192/namz0TYc_400x400.jpg" alt=""/>
+                        <a href="https://twitter.com/Kubbymo" target="_blank" rel="noreferrer">
+                            - Kubby, Founder of Kubbymo Customs
+                        </a>
+                    </h1>
                 </div>
             </div>
             <h1 className={styles['heading']}>Past Work</h1>
