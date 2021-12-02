@@ -7,8 +7,8 @@
     width: 100%;
     height: auto;
     background-color: rgb(146, 146, 146);
-    /* border-radius: 20px; */
     margin: 0;
+    margin-bottom: 2px;
     text-align: center;
 }
 
@@ -74,6 +74,16 @@
     font-weight: 300;
 }
 
+.alert-box a {
+    color: white;
+    transition: .1s ease-in;
+}
+
+.alert-box a:hover {
+    color:black;
+    transition: .1s ease-in;
+}
+
 @media screen and (max-width: 600px) {
     .alert-box {
         width: 100vw;
@@ -113,10 +123,9 @@
     align-items: center;
     text-align: center;
     padding: 8px 8px;
-    border-radius: 50%;
-    top: 40%;
+    top: 0;
     right: 0;
-    bottom: 40%;
+    bottom: 0;
     cursor: pointer;
 }
 

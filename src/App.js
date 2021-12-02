@@ -21,7 +21,8 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-        <AlertBanner />
+        <AlertBanner text={" Riptde 2021 was a huge success! Thank you to everybody who stopped by. Hopefully I'll see you all at Genesis 8!"} />
+        <AlertBanner text={"Check out the parts I made in the Panda Controller Promo video!"} link={"https://twitter.com/PandaGlobal/status/1466059682552766469?s=20"}/>
         <Switch>
           <Route exact path="/" >
             <Home />
