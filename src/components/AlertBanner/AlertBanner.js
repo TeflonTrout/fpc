@@ -12,9 +12,6 @@ const AlertBanner = (props) => {
         <>
         {props.link ? 
             alertOpen ? <div className={styles['alert-box']} style={alertOpen ? {width: ''} : {width: '10%'}}>
-                <div className={styles['close-btn']} onClick={() => handleAlertClick()}>
-                    X
-                </div>
                 <div className={styles['icon']}  onClick={() => handleAlertClick()}>
                     !
                 </div>
@@ -25,12 +22,12 @@ const AlertBanner = (props) => {
                     </a> 
                     </h2>
                 </div> 
+                <div className={styles['close-btn']} onClick={() => handleAlertClick()}>
+                    X
+                </div>
             </div> : ""
         :
         alertOpen ? <div className={styles['alert-box']} style={alertOpen ? {width: ''} : {width: '10%'}}>
-            <div className={styles['close-btn']} onClick={() => handleAlertClick()}>
-                X
-            </div>
             <div className={styles['icon']}  onClick={() => handleAlertClick()}>
                 !
             </div>
@@ -39,6 +36,9 @@ const AlertBanner = (props) => {
                 {props.text}
                 </h2>
             </div> 
+            <div className={styles['close-btn']} onClick={() => handleAlertClick()}>
+                X
+            </div>
         </div> : ""}
         </>
     )

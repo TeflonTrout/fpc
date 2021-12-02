@@ -2,10 +2,10 @@
 .alert-box {
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 70px;
     background-color: rgb(146, 146, 146);
     margin: 0;
     margin-bottom: 2px;
@@ -13,27 +13,20 @@
 }
 
 .alert-box .close-btn {
-    position: absolute;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 8px 8px;
-    top: 0;
-    right: 0;
-    bottom: 0;
     cursor: pointer;
+    height: 70px;
+    width: 30px;
 }
 
 .alert-box .icon {
-    padding: 5px 0 5px 0;
+    height: 70px;
     cursor: pointer;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
     margin: 0;
     background-color: black;
     color:white;
@@ -59,7 +52,8 @@
 
 .alert-box .message {
     width: calc(100% - 10vw);
-    font-size: 20px;
+    font-size: 16px;
+    padding: 10px;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -70,7 +64,7 @@
 .alert-box .alert {
     padding: 5px;
     color:white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -88,25 +82,21 @@
     .alert-box {
         width: 100vw;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         background-color: rgb(146, 146, 146);
-        border-radius: 20px;
         font-size: 10px;
+        height: 50px;
         text-align: center;
     }
 
     .alert-box .icon {
-        padding: 20px 0 20px 0;
         background-color: black;
         height: auto !important;
         color:white;
-        border-radius: 20px;
+        border-radius: 0;
         font-size: 20px;
         width: 10%;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left:0;
+        height: 50px !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -115,17 +105,13 @@
 
     
 .alert-box .close-btn {
-    /* position: absolute; */
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 8px 8px;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    height: 50px;
     cursor: pointer;
 }
 
@@ -139,8 +125,7 @@
     
     .alert-box .alert {
         padding: 2px;
-        font-size: 15px;
-        margin: 10px 10px 10px 25px;
+        font-size: 12px;
     }
 
 }

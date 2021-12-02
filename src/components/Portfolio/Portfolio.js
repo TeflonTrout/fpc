@@ -19,7 +19,7 @@ const Portfolio = () => {
                     <h1 className={styles['author']}>
                         <img src={`https://pbs.twimg.com/media/DzAo42-WoAEvaMk?format=jpg&name=4096x4096`} alt=""/>
                         <a href="https://twitter.com/ControlInColor" target="_blank" rel="noreferrer">
-                            - Joe Marchesi, CEO of Control in Color
+                            - Joe Marchesi, Owner of Control in Color
                         </a>
                     </h1>
                 </div>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                     <h1 className={styles['author']}>
                         <img src="https://pbs.twimg.com/profile_images/1460448549309661192/namz0TYc_400x400.jpg" alt=""/>
                         <a href="https://twitter.com/Kubbymo" target="_blank" rel="noreferrer">
-                            - Kubby, Founder of Kubbymo Customs
+                            - Kubby, Owner of Kubbymo Customs
                         </a>
                     </h1>
                 </div>
