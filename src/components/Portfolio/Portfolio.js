@@ -215,8 +215,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/jwnkKqX/adapterorange2.png" 
-                        medium="https://i.ibb.co/jwnkKqX/adapterorange2.png"
+                        small="https://i.ibb.co/TvbbVPR/adapterorange1.png" 
+                        medium="https://i.ibb.co/TvbbVPR/adapterorange1.png"
                     />
                 </div>
                 <div className={styles['grid-card']}>
