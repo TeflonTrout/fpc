@@ -31,7 +31,7 @@ const About = () => {
                     Some of my more recent endeavors include resin casting pre-notched controllers that are 'Goomwave' compatible and ready for notch callibration,
                 </p>
             </div>
-            <img className={styles['image']} src="https://i.ibb.co/9pcNMWf/prenotch.jpg" alt="" width={800}/>
+            <img className={styles['image']} src="https://lh3.googleusercontent.com/RLazCAreAazFDwe9VnBlkr1_HHdXI9ZMLXU2kyOvNAOxVzA8xHECUyzd7qF_zN6EI5CKrL-25HWJ40LxdwuVfshhVC9UrWBHQUBG2UDMR01tm3Af3U0UmNurdsbdJlzelLzT54sHDQ=w2400" alt="" width={800}/>
             <div className={styles['container']}>
                 <p>As well as; resin casting custom GCC adapters, for you to add some flare to your setup.</p>
                 <div className={styles['image-container']}>

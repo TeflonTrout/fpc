@@ -167,8 +167,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/wJ65w8c/sticks.png" 
-                        medium="https://i.ibb.co/wJ65w8c/sticks.png"
+                        small="https://lh3.googleusercontent.com/IV-rwpdvQJH5L83Dw5vL-f529gObxosfX4BsH1wh4YRJnlT1hKEW3950O089LBnuc03glRPwwFsfM2pfq-2BgxS1HGm3chX1K1DT-FgXoThrK8HD7n-SBfCxuYsSkLJpowBpTGsbUQ=w2400" 
+                        medium="https://lh3.googleusercontent.com/IV-rwpdvQJH5L83Dw5vL-f529gObxosfX4BsH1wh4YRJnlT1hKEW3950O089LBnuc03glRPwwFsfM2pfq-2BgxS1HGm3chX1K1DT-FgXoThrK8HD7n-SBfCxuYsSkLJpowBpTGsbUQ=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
@@ -207,16 +207,16 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/TvbbVPR/adapterorange1.png" 
-                        medium="https://i.ibb.co/TvbbVPR/adapterorange1.png"
+                        small="https://lh3.googleusercontent.com/r3zk9XMNuVbk-R19Sqjz1wlHQvS9AOTaDkqsVx-b-v6WVn_TEpyljPj0I2QjcEAmJTKUBfeCLqUf-ocmcgRfSlGHiIXe-Av8jfmfDl7OJ1Qt7HuS3IzvlWDZWb2fyXPXbUJOnkpLPg=w2400" 
+                        medium="https://lh3.googleusercontent.com/r3zk9XMNuVbk-R19Sqjz1wlHQvS9AOTaDkqsVx-b-v6WVn_TEpyljPj0I2QjcEAmJTKUBfeCLqUf-ocmcgRfSlGHiIXe-Av8jfmfDl7OJ1Qt7HuS3IzvlWDZWb2fyXPXbUJOnkpLPg=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/jwnkKqX/adapterorange2.png" 
-                        medium="https://i.ibb.co/jwnkKqX/adapterorange2.png"
+                        small="https://photos.app.goo.gl/5ZP1N7pFgMveQowi8" 
+                        medium="https://photos.app.goo.gl/5ZP1N7pFgMveQowi8"
                     />
                 </div>
                 <div className={styles['grid-card']}>
@@ -247,8 +247,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/6ZFBdxT/plugcovers.png" 
-                        medium="https://i.ibb.co/6ZFBdxT/plugcovers.png"
+                        small="https://lh3.googleusercontent.com/Nw4vjhbTr-qHCJ_9LizWUJ2NCIiScEYZdT5bmHzd-GWD2dS1DagWGPb6TYTX9-yznGkgMliHgLV0cJ9HC_TV7v-qPxYL0nzyEzt_K25_j5UXsgS4iOdj7LyeQ_gARibpXvJYRCHt7Q=w2400" 
+                        medium="https://lh3.googleusercontent.com/Nw4vjhbTr-qHCJ_9LizWUJ2NCIiScEYZdT5bmHzd-GWD2dS1DagWGPb6TYTX9-yznGkgMliHgLV0cJ9HC_TV7v-qPxYL0nzyEzt_K25_j5UXsgS4iOdj7LyeQ_gARibpXvJYRCHt7Q=w2400"
                     />
                 </div>
             </div>
@@ -258,16 +258,16 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/ys3n8T2/troutbox.png" 
-                        medium="https://i.ibb.co/ys3n8T2/troutbox.png"
+                        small="https://lh3.googleusercontent.com/dopgRJW9FnyxW1GPx1AVdfKAxHDxTYyvNUyx9NXT0AU4BMmZqA4JSdD7PCalu1T1yudNerYZ_uWwi55U6WX9Nl5PzinTNwD6araUKTWuAITcoI0-FqtGBLdkN6HbN-WkCngO22nKGg=w2400" 
+                        medium="https://lh3.googleusercontent.com/dopgRJW9FnyxW1GPx1AVdfKAxHDxTYyvNUyx9NXT0AU4BMmZqA4JSdD7PCalu1T1yudNerYZ_uWwi55U6WX9Nl5PzinTNwD6araUKTWuAITcoI0-FqtGBLdkN6HbN-WkCngO22nKGg=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/60BGw6r/dkbox.png" 
-                        medium="https://i.ibb.co/60BGw6r/dkbox.png"
+                        small="https://lh3.googleusercontent.com/-isgswcnh5MSoY066gV885aJN8XX8otcHnWiDIUwBbLqyI3De6x7pXnuwXpSab0fTekK4Tw6HMCU1B78Aa-D4GfvSeXI5UQb89zRItfQcO8LXiHMnhiY_z_6wlLnY1RWpbpHlLn3JA=w2400" 
+                        medium="https://lh3.googleusercontent.com/-isgswcnh5MSoY066gV885aJN8XX8otcHnWiDIUwBbLqyI3De6x7pXnuwXpSab0fTekK4Tw6HMCU1B78Aa-D4GfvSeXI5UQb89zRItfQcO8LXiHMnhiY_z_6wlLnY1RWpbpHlLn3JA=w2400"
                     />
                 </div>
             </div>
