@@ -44,8 +44,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/yPscXdT/orange.png" 
-                        medium="https://i.ibb.co/yPscXdT/orange.png"
+                        small="https://lh3.googleusercontent.com/wfcXX_rMWKqVeHRi5bck-9QgxdbcmvRrHX_DPnj9eCCP4RZFqEQNf6QpojXeR0Xa7edzXazE-0IWdnYvgMgoPymEHloOfotMcOnm-5EIPUFPxzkzZfQxR3n7yrAGmpwyt_niF2iO7g=w2400" 
+                        medium="https://lh3.googleusercontent.com/wfcXX_rMWKqVeHRi5bck-9QgxdbcmvRrHX_DPnj9eCCP4RZFqEQNf6QpojXeR0Xa7edzXazE-0IWdnYvgMgoPymEHloOfotMcOnm-5EIPUFPxzkzZfQxR3n7yrAGmpwyt_niF2iO7g=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
@@ -92,8 +92,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/NVY9DfW/zombie.png" 
-                        medium="https://i.ibb.co/NVY9DfW/zombie.png"
+                        small="https://lh3.googleusercontent.com/ylHTaWM-HiOgGxLfLSlVoBuZcOZN7kMgQk6YofHcF6syfR4Gw9ZRhh3oFGRqMKYHaC_TyS9XoyAdb7iC3lWWbDG6xVFfNpnFWT6y4jvVAZsJfnKK8cnwM10ZqDsjJZJHXRT_IAQDow=w2400" 
+                        medium="https://lh3.googleusercontent.com/ylHTaWM-HiOgGxLfLSlVoBuZcOZN7kMgQk6YofHcF6syfR4Gw9ZRhh3oFGRqMKYHaC_TyS9XoyAdb7iC3lWWbDG6xVFfNpnFWT6y4jvVAZsJfnKK8cnwM10ZqDsjJZJHXRT_IAQDow=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
@@ -116,8 +116,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/NS4cnPX/pumpkin.png" 
-                        medium="https://i.ibb.co/NS4cnPX/pumpkin.png"
+                        small="https://lh3.googleusercontent.com/tK8FRwPTMyoNkbWiTHdNr1ZFFV7-YEfB-Wq1WPA5afwLT8T_t_F_0CJPRwa8tVFR_L4HiZTvkQJ-70UAKuAirnWdIZ_QdCYhuJX1E-5aWdojYuUZHce1SCPuFwdgxAbhIFn0CSmrsw=w2400" 
+                        medium="https://lh3.googleusercontent.com/tK8FRwPTMyoNkbWiTHdNr1ZFFV7-YEfB-Wq1WPA5afwLT8T_t_F_0CJPRwa8tVFR_L4HiZTvkQJ-70UAKuAirnWdIZ_QdCYhuJX1E-5aWdojYuUZHce1SCPuFwdgxAbhIFn0CSmrsw=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
@@ -140,8 +140,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/4Z124K3/turqoise.png" 
-                        medium="https://i.ibb.co/4Z124K3/turqoise.png"
+                        small="https://lh3.googleusercontent.com/vmsYps5k0uU6AZInv4Sibabo_lAQNApIp29h8j1WpXbG_d5yov3IMehX7C4f0h1TEy5fAI5X-fbSyhBODHPqyTzz_RYAwPJIkV76A_0hlJn-HgxN3FAjgC4w6FPABrWA2GXxu7SA6Q=w2400" 
+                        medium="https://lh3.googleusercontent.com/vmsYps5k0uU6AZInv4Sibabo_lAQNApIp29h8j1WpXbG_d5yov3IMehX7C4f0h1TEy5fAI5X-fbSyhBODHPqyTzz_RYAwPJIkV76A_0hlJn-HgxN3FAjgC4w6FPABrWA2GXxu7SA6Q=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
@@ -156,8 +156,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/4Z5Qp2c/n64.png" 
-                        medium="https://i.ibb.co/4Z5Qp2c/n64.png"
+                        small="https://lh3.googleusercontent.com/AL7a6ANkA2kAYK1Ln_LdBTkTFNfwoVGb-hMtVkFaaEwdjeGjY5KOnZ6IiCrQAunwLiUX-BsihhBPYo30_E1lYzzcX_wkvdMgH2O247t8Q2EtkL2JExJW6HosyQeYbU9-mYH2t-pBSw=w2400" 
+                        medium="https://lh3.googleusercontent.com/AL7a6ANkA2kAYK1Ln_LdBTkTFNfwoVGb-hMtVkFaaEwdjeGjY5KOnZ6IiCrQAunwLiUX-BsihhBPYo30_E1lYzzcX_wkvdMgH2O247t8Q2EtkL2JExJW6HosyQeYbU9-mYH2t-pBSw=w2400"
                     />
                 </div>
             </div>
