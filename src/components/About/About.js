@@ -35,8 +35,8 @@ const About = () => {
             <div className={styles['container']}>
                 <p>As well as; resin casting custom GCC adapters, for you to add some flare to your setup.</p>
                 <div className={styles['image-container']}>
-                    <img className={styles['image']} src="https://i.ibb.co/4SLY31f/adapter1.jpg" alt="" />
-                    <img className={styles['image']} src="https://i.ibb.co/fdRWp4x/adapter2.jpg" alt="" />
+                    <img className={styles['image']} src="https://lh3.googleusercontent.com/r3zk9XMNuVbk-R19Sqjz1wlHQvS9AOTaDkqsVx-b-v6WVn_TEpyljPj0I2QjcEAmJTKUBfeCLqUf-ocmcgRfSlGHiIXe-Av8jfmfDl7OJ1Qt7HuS3IzvlWDZWb2fyXPXbUJOnkpLPg=w2400" alt="" />
+                    <img className={styles['image']} src="https://lh3.googleusercontent.com/5Vc2nnqb544b6Ogin6a_fuxdYFipmN3X140ZBWih0QCh4nRK6-EXp7OKP0r7zJKEIztp5GC_kegMVLgtLCfhNhaysnbcT3_HPy4zaIqx0vQDWxKgxEvcb5Kyp-YDRKhZ6A7NkxZTpA=w2400" alt="" />
                 </div>
             </div>
             <div className={styles['container']}>

@@ -167,8 +167,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://lh3.googleusercontent.com/IV-rwpdvQJH5L83Dw5vL-f529gObxosfX4BsH1wh4YRJnlT1hKEW3950O089LBnuc03glRPwwFsfM2pfq-2BgxS1HGm3chX1K1DT-FgXoThrK8HD7n-SBfCxuYsSkLJpowBpTGsbUQ=w2400" 
-                        medium="https://lh3.googleusercontent.com/IV-rwpdvQJH5L83Dw5vL-f529gObxosfX4BsH1wh4YRJnlT1hKEW3950O089LBnuc03glRPwwFsfM2pfq-2BgxS1HGm3chX1K1DT-FgXoThrK8HD7n-SBfCxuYsSkLJpowBpTGsbUQ=w2400"
+                        small="https://lh3.googleusercontent.com/VwnUQX3BJJPY9ifiklItbjESKyD6_6o129WnL8bnTjmACXFh41ds0rjSeJJuEAZ4j7Oj6yC1ogx5GpuNpOiDRcdhxB1xBI2HXOZczaqoh-GAqUaop_Odo36-2AzvCkfGnD5-aF0P8g=w2400" 
+                        medium="https://lh3.googleusercontent.com/VwnUQX3BJJPY9ifiklItbjESKyD6_6o129WnL8bnTjmACXFh41ds0rjSeJJuEAZ4j7Oj6yC1ogx5GpuNpOiDRcdhxB1xBI2HXOZczaqoh-GAqUaop_Odo36-2AzvCkfGnD5-aF0P8g=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
@@ -215,32 +215,32 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://photos.app.goo.gl/5ZP1N7pFgMveQowi8" 
-                        medium="https://photos.app.goo.gl/5ZP1N7pFgMveQowi8"
+                        small="https://lh3.googleusercontent.com/5Vc2nnqb544b6Ogin6a_fuxdYFipmN3X140ZBWih0QCh4nRK6-EXp7OKP0r7zJKEIztp5GC_kegMVLgtLCfhNhaysnbcT3_HPy4zaIqx0vQDWxKgxEvcb5Kyp-YDRKhZ6A7NkxZTpA=w2400" 
+                        medium="https://lh3.googleusercontent.com/5Vc2nnqb544b6Ogin6a_fuxdYFipmN3X140ZBWih0QCh4nRK6-EXp7OKP0r7zJKEIztp5GC_kegMVLgtLCfhNhaysnbcT3_HPy4zaIqx0vQDWxKgxEvcb5Kyp-YDRKhZ6A7NkxZTpA=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/0rssw97/buttons.png" 
-                        medium="https://i.ibb.co/0rssw97/buttons.png"
+                        small="" 
+                        medium=""
                     />
                 </div>
                 <div className={styles['grid-card']}>
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/SvY6K2w/buttons1.png" 
-                        medium="https://i.ibb.co/SvY6K2w/buttons1.png"
+                        small="https://lh3.googleusercontent.com/vCRL91tv2Wt4FovGBMEEFluk2pQeZCmQhqat2jUpvcCedVjeQHxUsZ7X2Ooybgdke6Z4UAAXGwNWLnLRfM8FOs-EWpY1zRXIF5wwgEDL0Nqy6XtMEwbY6bj6UzRnu-NNqS9FjQY_ww=w2400" 
+                        medium="https://lh3.googleusercontent.com/vCRL91tv2Wt4FovGBMEEFluk2pQeZCmQhqat2jUpvcCedVjeQHxUsZ7X2Ooybgdke6Z4UAAXGwNWLnLRfM8FOs-EWpY1zRXIF5wwgEDL0Nqy6XtMEwbY6bj6UzRnu-NNqS9FjQY_ww=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://i.ibb.co/Wx0Q8n1/buttons2.png" 
-                        medium="https://i.ibb.co/Wx0Q8n1/buttons2.png"
+                        small="https://lh3.googleusercontent.com/azb9EdmwuaW8bT8O-sJEl4O03nje8KRHjHUmmrMkxi1h_E9-6-gWFXawubIRIbWLVLzLMRD7YNN3zxt1s3WAUDkCRTi8QtvEVfh4uABAq6KaVHdR3c3MtpT1-yHJdOfz4MEreVygMA=w2400" 
+                        medium="https://lh3.googleusercontent.com/azb9EdmwuaW8bT8O-sJEl4O03nje8KRHjHUmmrMkxi1h_E9-6-gWFXawubIRIbWLVLzLMRD7YNN3zxt1s3WAUDkCRTi8QtvEVfh4uABAq6KaVHdR3c3MtpT1-yHJdOfz4MEreVygMA=w2400"
                     />
                 </div>
                 <div className={styles['grid-card']}>

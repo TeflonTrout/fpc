@@ -17,8 +17,8 @@ const Footer = () => {
                 <a href="https://customg.cc/" className={styles['external-link']} target='_blank' rel="noreferrer">CGCC</a>
             </div>
             <div className={styles['container']}>
-                <Link className={styles['link']} to="/guide">TWITTER</Link>
-                <Link className={styles['link']} to="/">SHOP</Link>
+                <Link className={styles['link']} to="https://twitter.com/TeflonTrout_FPC" target="_blank" rel="noreferrer">TWITTER</Link>
+                <Link className={styles['link']} to="https://www.frameperfectcontrollers.bigcartel.com" target="_blank" rel="noreferrer">SHOP</Link>
             </div>
         </div>
     )
