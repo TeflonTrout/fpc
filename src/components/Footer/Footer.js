@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div className={styles['container']}>
                 <a className={styles['link']} href="https://twitter.com/TeflonTrout_FPC" target="_blank" rel="noreferrer">TWITTER</a>
-                <a className={styles['link']} href="https://www.frameperfectcontrollers.bigcartel.com" target="_blank" rel="noreferrer">SHOP</a>
+                <a className={styles['link']} href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel="noreferrer">SHOP</a>
             </div>
         </div>
     )
