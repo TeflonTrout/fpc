@@ -215,8 +215,8 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
-                        small="https://lh3.googleusercontent.com/5Vc2nnqb544b6Ogin6a_fuxdYFipmN3X140ZBWih0QCh4nRK6-EXp7OKP0r7zJKEIztp5GC_kegMVLgtLCfhNhaysnbcT3_HPy4zaIqx0vQDWxKgxEvcb5Kyp-YDRKhZ6A7NkxZTpA=w2400" 
-                        medium="https://lh3.googleusercontent.com/5Vc2nnqb544b6Ogin6a_fuxdYFipmN3X140ZBWih0QCh4nRK6-EXp7OKP0r7zJKEIztp5GC_kegMVLgtLCfhNhaysnbcT3_HPy4zaIqx0vQDWxKgxEvcb5Kyp-YDRKhZ6A7NkxZTpA=w2400"
+                        small="https://i.ibb.co/TvbbVPR/adapterorange1.png" 
+                        medium="https://i.ibb.co/TvbbVPR/adapterorange1.png"
                     />
                 </div>
                 <div className={styles['grid-card']}>
