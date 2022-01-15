@@ -11,19 +11,48 @@
 .green {
     border-radius: 8px;
     padding: 10px 15px 10px 15px;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5px;
     cursor: pointer;
     background-color: rgba(86,192,161,255);
-    transition: .1s ease-out;
+    transition: .15s ease-out;
     font-family: 'BlankRiver';
-    font-size: 20px;
+    font-size: 32px;
+    max-width: 25vw;
 }
 
 .green:hover {
     background-color:rgb(73, 73, 73) !important;
-    transition: .1s ease-in;
+    transition: .15s ease-in;
+}
+
+.green:hover .button-text {
+    transition: .15s ease-in;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .green {
+        border-radius: 8px;
+        padding: 10px 15px 10px 15px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        cursor: pointer;
+        background-color: rgba(86,192,161,255);
+        transition: .15s ease-out;
+        font-family: 'BlankRiver';
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .green .button-text {
+        width: 100%;
+        text-align: center;
+    }
 }

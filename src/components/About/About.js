@@ -45,6 +45,7 @@ const About = () => {
                     <li>3 Years of Resin Casting Experience</li>
                     <li>CGCC Discord Moderator</li>
                     <li>Riptide 2021 Vendor</li>
+                    <li>Genesis 8 Vendor</li>
                 </ul>
             </div>
         </div>
