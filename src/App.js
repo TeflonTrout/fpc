@@ -14,11 +14,17 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import "./styles/global.css";
 import Guide from "./components/Guide/Guide";
 import AlertBanner from "./components/AlertBanner/AlertBanner";
+import { Helmet } from "react-helmet";
 
 function App() {
   
   return (
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Frame Perfect Controllers</title>
+        <link rel="canonical" href="https://www.wavedash.tech" />
+      </Helmet>
       <Router>
         <NavBar />
         <AlertBanner text={"We are excited to announce we will be vending at Genesis 8! See you there!"} />

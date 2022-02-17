@@ -22,40 +22,40 @@ const Home = () => {
                         <ModalImage 
                             hideDownload={true} 
                             hideZoom={true} 
-                            small="https://i.ibb.co/yPscXdT/orange.png" 
-                            medium="https://i.ibb.co/yPscXdT/orange.png"
+                            small="https://i.imgur.com/CI6zELl.jpg" 
+                            medium="https://i.imgur.com/CI6zELl.jpg"
                         />
                     </div>
                     <div>
                         <ModalImage 
                             hideDownload={true} 
                             hideZoom={true} 
-                            small="https://i.ibb.co/dG1YYtV/blue-green.png" 
-                            medium="https://i.ibb.co/dG1YYtV/blue-green.png"
+                            small="https://i.imgur.com/J7jmjwT.jpg" 
+                            medium="https://i.imgur.com/J7jmjwT.jpg"
                         />
                     </div>
                     <div>
                         <ModalImage 
                             hideDownload={true} 
                             hideZoom={true} 
-                            small="https://i.ibb.co/wJ65w8c/sticks.png" 
-                            medium="https://i.ibb.co/wJ65w8c/sticks.png"
+                            small="https://i.imgur.com/NC8SxFp.jpg" 
+                            medium="https://i.imgur.com/NC8SxFp.jpg"
                         />
                     </div>
                     <div>
                         <ModalImage 
                             hideDownload={true} 
                             hideZoom={true} 
-                            small="https://i.ibb.co/42pD73M/watermelon.png" 
-                            medium="https://i.ibb.co/42pD73M/watermelon.png"
+                            small="https://i.imgur.com/R0cwP3X.jpg" 
+                            medium="https://i.imgur.com/R0cwP3X.jpg"
                         />
                     </div>
                     <div>
                         <ModalImage 
                             hideDownload={true} 
                             hideZoom={true} 
-                            small="https://i.ibb.co/9ghP0zg/panasonic1.png" 
-                            medium="https://i.ibb.co/9ghP0zg/panasonic1.png"
+                            small="https://i.imgur.com/jPgnmkD.jpg" 
+                            medium="https://i.imgur.com/jPgnmkD.jpg"
                         />
                     </div>
                 </Carousel>
@@ -66,7 +66,7 @@ const Home = () => {
                         <Button text="See Work" color="green" width={40}/>
                     </Link>
                     <a href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel='noreferrer'>
-                        <Button text="Learn More" color="green" width={40}/>
+                        <Button text="View Shop" color="green" width={40}/>
                     </a>
                 </div>
             </div>
