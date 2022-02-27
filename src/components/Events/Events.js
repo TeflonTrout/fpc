@@ -52,7 +52,7 @@ const Events = () => {
                 checker(event)
                 return null
             })
-            const largerEvents = data?.tournaments?.nodes.filter(item => item.numAttendees > 120)
+            const largerEvents = data?.tournaments?.nodes.filter(item => item.numAttendees > 100)
             setLargerEvents(largerEvents)
         }
    }, [data])
