@@ -42,7 +42,6 @@ const Events = () => {
                 ]
                 for (let index = 0; index < majorNames.length; index++) {               
                     if (value.name.toLowerCase().indexOf(majorNames[index]) > -1) {
-                        console.log(value)
                         setMajorEvents(prevState => [...prevState, value])
                         return value
                     }

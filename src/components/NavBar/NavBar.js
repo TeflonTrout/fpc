@@ -62,7 +62,7 @@ const NavBar = () => {
                     <div>
                         <h1 className={styles['link']} onClick={handleClick}>Guide</h1>
                     </div>
-                    <Link to="/events" onClick={e => handleHamburgerClick(e)}>
+                    <Link to="/events">
                             <h1 className={styles['link']}>Events</h1>
                     </Link>
                     <a className={styles['link']} href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel='noreferrer'>
