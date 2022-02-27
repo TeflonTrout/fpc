@@ -53,15 +53,18 @@ const NavBar = () => {
                     <Link to="/">
                         <h1 className={styles['link']}>Home</h1>
                     </Link>
-                    <Link to="/portfolio">
-                        <h1 className={styles['link']}>Portfolio</h1>
-                    </Link>
                     <Link to="/about">
                         <h1 className={styles['link']}>About</h1>
+                    </Link>
+                    <Link to="/portfolio">
+                        <h1 className={styles['link']}>Portfolio</h1>
                     </Link>
                     <div>
                         <h1 className={styles['link']} onClick={handleClick}>Guide</h1>
                     </div>
+                    <Link to="/events" onClick={e => handleHamburgerClick(e)}>
+                            <h1 className={styles['link']}>Events</h1>
+                    </Link>
                     <a className={styles['link']} href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel='noreferrer'>
                         <h1 className={styles['link']}>Shop</h1>
                     </a>
@@ -105,14 +108,17 @@ const NavBar = () => {
                         <Link to="/" onClick={e => handleHamburgerClick(e)}>
                             <h1 className={styles['link']}>Home</h1>
                         </Link>
-                        <Link to="/portfolio" onClick={e => handleHamburgerClick(e)}>
-                            <h1 className={styles['link']}>Portfolio</h1>
-                        </Link>
                         <Link to="/about" onClick={e => handleHamburgerClick(e)}>
                             <h1 className={styles['link']}>About</h1>
                         </Link>
+                        <Link to="/portfolio" onClick={e => handleHamburgerClick(e)}>
+                            <h1 className={styles['link']}>Portfolio</h1>
+                        </Link>
                         <Link to="/guide" onClick={e => handleHamburgerClick(e)}>
                             <h1 className={styles['link']}>Guide</h1>
+                        </Link>
+                        <Link to="/events" onClick={e => handleHamburgerClick(e)}>
+                            <h1 className={styles['link']}>Events</h1>
                         </Link>
                         <a href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel="noreferrer" onClick={e => handleHamburgerClick(e)}>
                             <h1 className={styles['link']}>Shop</h1>

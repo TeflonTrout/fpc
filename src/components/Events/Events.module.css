@@ -1,0 +1,70 @@
+.event-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.event-page .heading {
+    font-size: 34px;
+    display: flex;
+    text-align: center;
+    white-space: nowrap;
+    width: 100vw;
+    color: black;
+    justify-content: center;
+}
+
+.event-page .selector {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.event-page .selector .selector-btn {
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.15s ease-in;
+}
+
+.event-page .selector .selected {
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.15s ease-in;
+    color: rgba(86,192,161,255);
+}
+
+.event-page .selector .selector-btn:hover {
+    color: grey;
+    transition: 0.15s ease-in;
+}
+
+.event-page .selector .selected:hover {
+    transition: 0.15s ease-in;
+}
+
+.event-page .event-footer {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.event-page .event-footer h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-page .event-footer a {
+    display: flex;
+    transition: .15s ease-in;
+}
+
+.event-page .event-footer a:hover {
+    color: grey;
+    transition: .15s ease-in;
+}
