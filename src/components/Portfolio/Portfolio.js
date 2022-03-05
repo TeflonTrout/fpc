@@ -45,6 +45,46 @@ const Portfolio = () => {
                     <ModalImage 
                         hideDownload={true} 
                         hideZoom={true} 
+                        small="https://i.imgur.com/jxCiJYp.jpg" 
+                        medium="https://i.imgur.com/jxCiJYp.jpg"
+                    />
+                </div>
+                <div className={styles['grid-card']}>
+                    <ModalImage 
+                        hideDownload={true} 
+                        hideZoom={true} 
+                        small="https://i.imgur.com/MHfbygv.jpg" 
+                        medium="https://i.imgur.com/MHfbygv.jpg"
+                    />
+                </div>
+                <div className={styles['grid-card']}>
+                    <ModalImage 
+                        hideDownload={true} 
+                        hideZoom={true} 
+                        small="https://i.imgur.com/kvwY2sF.jpg" 
+                        medium="https://i.imgur.com/kvwY2sF.jpg"
+                    />
+                </div>
+                <div className={styles['grid-card']}>
+                    <ModalImage 
+                        hideDownload={true} 
+                        hideZoom={true} 
+                        small="https://i.imgur.com/kgbKh2s.jpg" 
+                        medium="https://i.imgur.com/kgbKh2s.jpg"
+                    />
+                </div>
+                <div className={styles['grid-card']}>
+                    <ModalImage 
+                        hideDownload={true} 
+                        hideZoom={true} 
+                        small="https://i.imgur.com/DxVMYyM.jpg" 
+                        medium="https://i.imgur.com/DxVMYyM.jpg"
+                    />
+                </div>
+                <div className={styles['grid-card']}>
+                    <ModalImage 
+                        hideDownload={true} 
+                        hideZoom={true} 
                         small="https://i.imgur.com/CI6zELl.jpg" 
                         medium="https://i.imgur.com/CI6zELl.jpg"
                     />
