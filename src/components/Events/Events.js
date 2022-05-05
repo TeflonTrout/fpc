@@ -93,7 +93,7 @@ const Events = () => {
             <div className={styles['heading-container']}>
                 <h1 className={styles['heading']}>Upcoming {selector === "majors" ? "Major" : null} Events</h1>
                 <h3>(I will not be attending all of these, just providing data)</h3>
-                <h3>(Events we are marked with a green background!)</h3>
+                <h3>(Events we are attending are marked with a green background!)</h3>
             </div>
             {loading ? <h1>Loading...</h1> : null}
             {error ? <h1>Oops, something isn't right!</h1> : null}
