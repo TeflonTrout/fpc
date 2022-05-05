@@ -5,6 +5,18 @@
     width: 100vw;
 }
 
+.event-page .heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.event-page .heading-container h3 {
+    margin: 0 !important;
+}
+
 .event-page .heading {
     font-size: 34px;
     display: flex;

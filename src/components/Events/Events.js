@@ -25,6 +25,7 @@ const Events = () => {
 
     
     useEffect(() => {
+        console.log(data)
         if(data?.tournaments?.nodes?.length > 1) {
             const checker = (value) => {
                 const majorNames = [
@@ -89,7 +90,11 @@ const Events = () => {
                     key="description"
                 />
             </Helmet>
-            <h1 className={styles['heading']}>Upcoming {selector === "majors" ? "Major" : null} Events</h1>
+            <div className={styles['heading-container']}>
+                <h1 className={styles['heading']}>Upcoming {selector === "majors" ? "Major" : null} Events</h1>
+                <h3>(I will not be attending all of these, just providing data)</h3>
+                <h3>(Events we are marked with a green background!)</h3>
+            </div>
             {loading ? <h1>Loading...</h1> : null}
             {error ? <h1>Oops, something isn't right!</h1> : null}
             {data 

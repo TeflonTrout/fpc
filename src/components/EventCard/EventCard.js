@@ -14,7 +14,7 @@ const EventCard = (props) => {
 
   return (
     <a href={`https://smash.gg/${props.event.slug}`} target="_blank" rel='noreferrer' >
-        <div className={styles['event-card']}>
+        <div className={props.event?.name.toLowerCase() === "double down 2022" ? styles['event-card-attending'] : styles['event-card']} >
             {props.event?.images[0]?.url === undefined 
             ? <div style={{
                 backgroundImage: `url(${placeholder})`,  
@@ -27,7 +27,7 @@ const EventCard = (props) => {
                 className={styles['placeholder-image']}>
                 <h1>No Image</h1>
             </div>
-            : <img src={props.event?.images[0]?.url} alt="event_logo" /> }
+            : <img src={props.event?.images[0]?.url} alt="event_logo" />}
             <div className={styles['description']}>
                 <h1>{concatName(props.event.name)}</h1> 
                 <h3>{props.event.city}, {props.event.addrState}</h3>
