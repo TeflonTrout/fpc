@@ -31,8 +31,8 @@ function App() {
       <ApolloProvider client={withApollo}>
         <Router>
           <NavBar />
-          <AlertBanner text={"We are excited to announce we will be vending at Genesis 8! See you there!"} />
-          <AlertBanner text={"Check out the parts I made in the Panda Controller Promo video!"} link={"https://twitter.com/PandaGlobal/status/1466059682552766469?s=20"}/>
+          <AlertBanner text={"Genesis 8 was a huge success, thank you to all who stopped by! See you at Double Down!"} />
+          {/* <AlertBanner text={"Check out the parts I made in the Panda Controller Promo video!"} link={"https://twitter.com/PandaGlobal/status/1466059682552766469?s=20"}/> */}
           <Switch>
             <Route exact path="/" >
               <Home />
