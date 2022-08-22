@@ -37,7 +37,7 @@ const Events = () => {
           //   "smash world tour",
           "frostbite",
           // "ceo",
-          //   "shine ",
+          "shine ",
         ];
         for (let index = 0; index < majorNames.length; index++) {
           if (value.name.toLowerCase().indexOf(majorNames[index]) > -1) {
