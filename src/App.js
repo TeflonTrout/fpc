@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -17,10 +13,9 @@ import AlertBanner from "./components/AlertBanner/AlertBanner";
 import { Helmet } from "react-helmet";
 import Events from "./components/Events/Events";
 import { ApolloProvider } from "@apollo/client";
-import withApollo from "./utils/GQL/withApollo"
+import withApollo from "./utils/GQL/withApollo";
 
 function App() {
-  
   return (
     <div className="App">
       <Helmet>
@@ -31,10 +26,18 @@ function App() {
       <ApolloProvider client={withApollo}>
         <Router>
           <NavBar />
-          <AlertBanner text={"Genesis 8 was a huge success, thank you to all who stopped by! See you at Double Down!"} />
+          <AlertBanner
+            text={
+              "Double Down was a ton of fun, thank you to all who stopped by! We'll see you at The Big House!"
+            }
+          />
+          <AlertBanner
+            text={"Extra stock from Double Down is now live on my shop!"}
+            link={"https://frameperfectcontrollers.bigcartel.com"}
+          />
           {/* <AlertBanner text={"Check out the parts I made in the Panda Controller Promo video!"} link={"https://twitter.com/PandaGlobal/status/1466059682552766469?s=20"}/> */}
           <Switch>
-            <Route exact path="/" >
+            <Route exact path="/">
               <Home />
             </Route>
             <Route path="/portfolio">
@@ -46,19 +49,30 @@ function App() {
             <Route path="/events">
               <Events />
             </Route>
-            <Route exact path='/guide'>
+            <Route exact path="/guide">
               <Guide />
             </Route>
-            <Route path='/guide/resin'>
+            <Route path="/guide/resin">
               <ResinGuide />
             </Route>
-            <Route path='/guide/liquid'>
+            <Route path="/guide/liquid">
               <LiquidCableGuide />
             </Route>
           </Switch>
-          
+
           <Footer />
-          <p style={{display: 'flex', justifyContent: 'center', margin: '0', padding: '0 10px 0 0', fontSize: '10px', backgroundColor: "rgb(73, 73, 73)"}}>Created 2021</p>
+          <p
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              margin: "0",
+              padding: "0 10px 0 0",
+              fontSize: "10px",
+              backgroundColor: "rgb(73, 73, 73)",
+            }}
+          >
+            Created 2021
+          </p>
         </Router>
       </ApolloProvider>
     </div>
