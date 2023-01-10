@@ -15,11 +15,7 @@ const Events = () => {
   });
 
   const helmetData = [
-    "Genesis 8",
-    "Pound 2022",
-    "Low Tide City",
-    "CEO 2022",
-    "Double Down 2022",
+    "Genesis 9"
   ];
 
   useEffect(() => {

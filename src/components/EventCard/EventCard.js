@@ -20,7 +20,7 @@ const EventCard = (props) => {
     >
       <div
         className={
-          props.event?.name.toLowerCase() === "the big house 10"
+          props.event?.name.toLowerCase() === "genesis 9"
             ? styles["event-card-attending"]
             : styles["event-card"]
         }

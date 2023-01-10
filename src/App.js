@@ -28,11 +28,11 @@ function App() {
           <NavBar />
           <AlertBanner
             text={
-              "Double Down was a ton of fun, thank you to all who stopped by! We'll see you at The Big House!"
+              "Thank you to everybody who stopped by at TBH10! We'll see you at Genesis 9!"
             }
           />
           <AlertBanner
-            text={"Extra stock from Double Down is now live on my shop!"}
+            text={"Extra stock from TBH10 is now live on my shop!"}
             link={"https://frameperfectcontrollers.bigcartel.com"}
           />
           {/* <AlertBanner text={"Check out the parts I made in the Panda Controller Promo video!"} link={"https://twitter.com/PandaGlobal/status/1466059682552766469?s=20"}/> */}
