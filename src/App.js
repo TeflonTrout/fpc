@@ -27,11 +27,6 @@ function App() {
         <Router>
           <NavBar />
           <AlertBanner
-            text={
-              "Thank you to everybody who stopped by at Genesis 9!"
-            }
-          />
-          <AlertBanner
             text={"Extra stock from TBH10 & Genesis 9 are now live on my shop!"}
             link={"https://frameperfectcontrollers.bigcartel.com"}
           />
