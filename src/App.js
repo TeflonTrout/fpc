@@ -27,9 +27,8 @@ function App() {
         <Router>
           <NavBar />
           <AlertBanner
-            text={
-              "Genesis 9 was a ton of fun! Thank you to all who stopped by! See you at our next major!"
-            }
+            text={"Extra stock from TBH10 & Genesis 9 are now live on my shop!"}
+            link={"https://frameperfectcontrollers.bigcartel.com"}
           />
           {/* <AlertBanner text={"Check out the parts I made in the Panda Controller Promo video!"} link={"https://twitter.com/PandaGlobal/status/1466059682552766469?s=20"}/> */}
           <Switch>

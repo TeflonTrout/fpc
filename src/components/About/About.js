@@ -42,10 +42,12 @@ const About = () => {
             <div className={styles['container']}>
                 <h1 className={styles['heading']}>Experience</h1>
                 <ul>
-                    <li>3 Years of Resin Casting Experience</li>
-                    <li>CGCC Discord Moderator</li>
+                    <li>5 Years of Resin Casting Experience</li>
                     <li>Riptide 2021 Vendor</li>
                     <li>Genesis 8 Vendor</li>
+                    <li>Double Down 2022 Vendor</li>
+                    <li>The Big House 10 Vendor</li>
+                    <li>Genesis 9 Vendor</li>
                 </ul>
             </div>
         </div>
