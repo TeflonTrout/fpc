@@ -26,10 +26,10 @@ function App() {
       <ApolloProvider client={withApollo}>
         <Router>
           <NavBar />
-          <AlertBanner
+          {/* <AlertBanner
             text={"Extra stock from TBH10 & Genesis 9 are now live on my shop!"}
             link={"https://frameperfectcontrollers.bigcartel.com"}
-          />
+          /> */}
           {/* <AlertBanner text={"Check out the parts I made in the Panda Controller Promo video!"} link={"https://twitter.com/PandaGlobal/status/1466059682552766469?s=20"}/> */}
           <Switch>
             <Route exact path="/">

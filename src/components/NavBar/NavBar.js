@@ -62,9 +62,9 @@ const NavBar = () => {
                     <div>
                         <h1 className={styles['link']} onClick={handleClick}>Guide</h1>
                     </div>
-                    <Link to="/events">
+                    {/* <Link to="/events">
                             <h1 className={styles['link']}>Events</h1>
-                    </Link>
+                    </Link> */}
                     <a className={styles['link']} href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel='noreferrer'>
                         <h1 className={styles['link']}>Shop</h1>
                     </a>
@@ -117,9 +117,9 @@ const NavBar = () => {
                         <Link to="/guide" onClick={e => handleHamburgerClick(e)}>
                             <h1 className={styles['link']}>Guide</h1>
                         </Link>
-                        <Link to="/events" onClick={e => handleHamburgerClick(e)}>
+                        {/* <Link to="/events" onClick={e => handleHamburgerClick(e)}>
                             <h1 className={styles['link']}>Events</h1>
-                        </Link>
+                        </Link> */}
                         <a href="https://frameperfectcontrollers.bigcartel.com/" target="_blank" rel="noreferrer" onClick={e => handleHamburgerClick(e)}>
                             <h1 className={styles['link']}>Shop</h1>
                         </a>
