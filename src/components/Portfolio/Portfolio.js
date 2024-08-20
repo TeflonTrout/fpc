@@ -17,8 +17,8 @@ const Portfolio = () => {
         <div className={styles["quote-box-left"]}>
           <h3>
             <p className={styles["quote-mark-left"]}>"</p>Great quality resin
-            and one of my go-to's in a pinch on a collaboration project. [He
-            does] great work and get[s] it done super quick, while also making
+            and one of my go-to's in a pinch on a collaboration project. He
+            does great work and get's it done super quick, while also making
             sure everything is up to snuff with my vision and your standards.
             Also a top notch lad in general.
             <p className={styles["quote-mark-right"]}>"</p>
